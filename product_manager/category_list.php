@@ -27,8 +27,8 @@
  <!-- add code for form here -->
 
 <!--Start here-->
- <form action="add_category.php" method="post" id="add_category_form">
- <!-- <input type="hidden" name="action" value="add_category">-->
+ <form action="." method="post" id="add_category_form">
+ <input type="hidden" name="action" value="add_category">
   <label>Name:</label>
   <input type="text" name="name" />
   <br>
