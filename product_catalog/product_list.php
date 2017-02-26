@@ -2,7 +2,7 @@
 <main>
     <aside>
         <h1>Categories</h1>
-
+<?php include '../view/categories_nav.php';?>
 
 </aside>
     <section>
