@@ -25,6 +25,20 @@
  </table>
  <h2>Add Category</h2>
  <!-- add code for form here -->
- <p><a href="index.php?action=list_products">List Products</a></p>
+
+<!--Start here-->
+ <form action="add_category" method="post" id="add_category_form">
+  <input type="hidden" name="action" value="add_category">
+  <label>Name:</label>
+  <input type="text" name="name" />
+  <br>
+  <label>&nbsp;</label>
+  <input type="submit" value="Add" />
+  <br>
+  </form>
+<!--Ends here -->
+
+
+<p><a href="index.php?action=list_products">List Products</a></p>
 </main>
 <?php include '../view/footer.php'; ?>
