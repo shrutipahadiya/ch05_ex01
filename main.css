@@ -117,13 +117,23 @@ form {
     width: 15em;
 }
 
-#add_category_form label{
-width:6em;
-padding-right:1em;
-padding-bottom:.5em;
-float:left;
+/* Added styles for the Add Category Form*/
+
+#add_category_form {
+    margin: .5em 0;
 }
 
+#add_category_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
 
+#add_category_form input {
+    float: left;
+}
 
-
+#add_category_form input[text] {
+    width: 15em;
+}
